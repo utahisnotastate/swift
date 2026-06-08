@@ -79,8 +79,6 @@ PASS(EmbeddedWitnessCallSpecialization, "embedded-witness-call-specialization",
      "Mandatory witness method call specialization")
 PASS(ConstantCapturePropagation, "constant-capture-propagation",
      "Specialize closures with constant captures")
-PASS(TopologicalOSSAElision, "topological-ossa-elision",
-     "Topological OSSA Elision")
 PASS(ComputeEscapeEffects, "compute-escape-effects",
      "Computes function escape effects")
 PASS(ComputeSideEffects, "compute-side-effects",
