@@ -82,6 +82,7 @@ private func registerSwiftPasses() {
   registerPass(mergeCondFailsPass, { mergeCondFailsPass.run($0) })
   registerPass(constantCapturePropagation, { constantCapturePropagation.run($0) })
   registerPass(computeEscapeEffects, { computeEscapeEffects.run($0) })
+  registerPass(topologicalOSSAElision, { topologicalOSSAElision.run($0) })
   registerPass(computeSideEffects, { computeSideEffects.run($0) })
   registerPass(condFailOptimization, { condFailOptimization.run($0) })
   registerPass(diagnoseInfiniteRecursion, { diagnoseInfiniteRecursion.run($0) })
